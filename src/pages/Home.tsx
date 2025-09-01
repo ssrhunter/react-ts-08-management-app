@@ -1,6 +1,9 @@
-import studentsImg from '../assets/students.jpg';
-import listImg from '../assets/list.jpg';
-import certificateImg from '../assets/certificate.jpg';
+import studentsImg from "../assets/students.jpg";
+import listImg from "../assets/list.jpg";
+import certificateImg from "../assets/certificate.jpg";
+import Button from "../components/Button";
+import Input from "../components/Input";
+import Modal from "../components/Modal";
 
 export default function HomePage() {
   return (
@@ -16,6 +19,13 @@ export default function HomePage() {
             We are a community of React developers who want to help each other
             succeed.
           </p>
+          <p>
+            <Button>Button</Button>
+          </p>
+          <p>
+            <Button to="/">Button</Button>
+          </p>
+          <Input id="test" name="test" />
         </div>
       </section>
 
